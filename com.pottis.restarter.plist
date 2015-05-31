@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+
+	<key>Label</key>
+	<string>com.pottis.restarter</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/admin/restarter/restarter.sh</string>
+	</array>
+
+	<key>StandardOutPath</key>
+	<string>/Users/admin/restarter/logs/stdout.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/admin/restarter/logs/stderr.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/admin/restarter</string>
+
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
